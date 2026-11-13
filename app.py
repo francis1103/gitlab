@@ -1,4 +1,4 @@
-from flask import Flask
+"""from flask import Flask
 
 app = Flask(__name__)
 
@@ -10,3 +10,12 @@ def home():
 if __name__== "__main__":
     app.run(host="0.0.0.0",port = 5000)
     
+    
+    """
+
+def add():
+    return a+b
+
+if __name__ == "__main__":
+    print("hello !")
+    print("The result ",add(2,3))
